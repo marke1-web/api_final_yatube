@@ -6,7 +6,7 @@ from rest_framework.permissions import (
     IsAuthenticated,
 )
 
-from api.permissions import IsAuthorOrReadOnly, IsAuthenticated
+from api.permissions import IsAuthorOrReadOnly
 from posts.models import Post, Group
 from api.serializers import (
     CommentSerializer,
